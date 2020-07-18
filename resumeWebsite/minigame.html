@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="minigamecss.css" type="text/css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Minigame</title>
+</head>
+
+<body>
+    <h1> Welcome to our Minigame! </h1>
+    <div class="showcategories">
+        <h3>MATH</h3>
+        <br>
+        <br>
+        <ol>
+            <li> Who invented the Cartesian Plane?</li>
+            <br>
+            <input type="radio" name="choices" value="Ren&eacute; Descartes" id="rene" class="correctAnswerMath">
+            <label for="rene" class="choiceA">Ren&eacute; Descartes</label>
+            <br>
+
+            <input type="radio" name="choices" value="Isaac Newton" id="isaac">
+            <label for="isaac">Isaac Newton</label>
+            <br>
+
+
+            <input type="radio" name="choices" value="Phytagoras" id="phytagoras" class="">
+            <label for="phytagoras">Phytagoras</label>
+            <br>
+
+
+            <input type="radio" name="choices" value="Johannes Kepler" id="johannes" class="choiceD">
+            <label for="johannes">Johannes Kepler</label>
+            <br>
+            <br>
+            <br>
+            <!--question number 2-->
+            <li>If Logx (1 / 8) = - 3 / 2, then x is equal to</li>
+            <br>
+            <input type="radio" name="choicesm2" value="-4" id="-4" class="choiceA">
+            <label for="-4" class="choiceA">-4</label>
+            <br>
+
+            <input type="radio" name="choicesm2" value="4" id="four" class="correctAnswerMath">
+            <label for="four">4</label>
+            <br>
+
+
+            <input type="radio" name="choicesm2" value="1/4" id="1/4" class="choiceC">
+            <label for="1/4">1/4</label>
+            <br>
+
+
+            <input type="radio" name="choicesm2" value="10" id="10" class="choiceD">
+            <label for="10">10</label>
+            <br>
+            <br>
+            <br>
+
+            <!--question number 3-->
+            <li>20 % of 2 is equal to</li>
+            <br>
+            <input type="radio" name="choicesm3" value="20" id="20" class="choiceA">
+            <label for="20" class="choiceA">20</label>
+            <br>
+
+            <input type="radio" name="choicesm3" value="4" id="4.0">
+            <label for="4.0">4</label>
+            <br>
+
+
+            <input type="radio" name="choicesm3" value="0.4" id="ZeroPointFour" class="correctAnswerMath">
+            <label for="ZeroPointFour">0.4</label>
+            <br>
+
+
+            <input type="radio" name="choicesm3" value="0.04" id="0.04" class="choiceD">
+            <label for="0.04">0.04</label>
+            <br>
+            <br>
+            <br>
+
+            <!--question number 4-->
+            <li>The population of a country increased by an average of 2% per year from 2000 to 2003. If the population of this country was 2 000 000 on December 31, 2003, then the population of this country on January 1, 2000, to the nearest thousand would
+                have been
+            </li>
+            <br>
+            <input type="radio" name="choicesm4" value="1,846,000" id="1846" class="choiceA">
+            <label for="1846" class="choiceA">1,846,000</label>
+            <br>
+
+            <input type="radio" name="choicesm4" value="1,852,000" id="OneMillionEighthundredFiftyTwo" class="correctAnswerMath">
+            <label for="OneMillionEighthundredFiftyTwo">1,852,000</label>
+            <br>
+
+
+            <input type="radio" name="choicesm4" value="1,000,000" id="1m" class="choiceC">
+            <label for="1m">1,000,000</label>
+            <br>
+
+
+            <input type="radio" name="choicesm4" value="1,500,000" id="1.5m" class="choiceD">
+            <label for="1.5m">1,500,000</label>
+            <br>
+            <br>
+            <br>
+            <!--question number 5-->
+            <li>f is a quadratic function whose graph is a parabola opening upward and has a vertex on the x-axis. The graph of the new function g defined by g(x) = 2 - f(x - 5) has a range defined by the interval
+            </li>
+            <br>
+            <input type="radio" name="choicesm5" value="[ -5 , + infinity)" id="-5" class="choiceA">
+            <label for="-5" class="choiceA">[ -5 , + infinity)</label>
+            <br>
+
+            <input type="radio" name="choicesm5" value="[ 2 , + infinity)" id="2+">
+            <label for="2+">[ 2 , + infinity)</label>
+            <br>
+
+
+            <input type="radio" name="choicesm5" value="( - infinity , 2]" id="infin2" class="correctAnswerMath">
+            <label for="infin2">( - infinity , 2]</label>
+            <br>
+
+
+            <input type="radio" name="choicesm5" value="( - infinity , 0]" id="infin0" class="choiceD">
+            <label for="infin0">( - infinity , 0]</label>
+
+        </ol>
+    </div>
+    <br>
+    <div class="center">
+        <button type="button" id="nextbutton" name="Next" value="Next" onclick="nextdiv()">Next!</button>
+    </div>
+    <div class="hidecategories">
+        <h3>SCIENCE</h3>
+        <br>
+        <br>
+        <ol>
+            <li>Brass gets discoloured in air because of the presence of which of the following gases in air?</li>
+            <br>
+            <input type="radio" name="choicesS1" value="Oxygen" id="oxygen" class="choiceA">
+            <label for="oxygen" class="choiceA">Oxygen</label>
+            <br>
+            <input type="radio" name="choicesS1" value="Hydrogen sulphide" id="hydro" class="correctAnswerScience">
+            <label for="hydro" class="choiceA">Hydrogen sulphide
+        </label>
+            <br>
+            <input type="radio" name="choicesS1" value="Carbon dioxide" id="carbon" class="choiceA">
+            <label for="carbon" class="choiceA">Carbon dioxide
+        </label>
+            <br>
+            <input type="radio" name="choicesS1" value="Nitrogen" id="Nitrogen" class="choiceA">
+            <label for="Nitrogen" class="choiceA">Nitrogen
+        </label>
+            <br>
+            <br>
+            <li>Which of the following is a non metal that remains liquid at room temperature?</li>
+            <br>
+            <input type="radio" name="choicesS2" value="Phosphorous" id="phos" class="choiceA">
+            <label for="phos" class="choiceA">Phosphorous
+        </label>
+            <br>
+            <input type="radio" name="choicesS2" value="Bromine" id="brom" class="correctAnswerScience">
+            <label for="brom" class="">Bromine
+        </label>
+            <br>
+            <input type="radio" name="choicesS2" value="Chlorine" id="chlor" class="choiceA">
+            <label for="chlor" class="choiceA">Chlorine
+    </label>
+            <br>
+            <input type="radio" name="choicesS2" value="Helium" id="hel" class="choiceA">
+            <label for="hel" class="choiceA">Helium
+</label>
+            <br>
+            <br>
+            <li>Chlorophyll is a naturally occurring chelate compound in which central metal is</li>
+            <br>
+            <input type="radio" name="choicesS3" value="copper" id="cop" class="choiceA">
+            <label for="cop" class="choiceA">copper
+</label>
+            <br>
+            <input type="radio" name="choicesS3" value="magnesium" id="mag" class="correctAnswerScience">
+            <label for="mag" class="">magnesium
+</label>
+            <br>
+            <input type="radio" name="choicesS3" value="iron" id="ir" class="choiceA">
+            <label for="ir" class="choiceA">iron
+</label>
+            <br>
+            <input type="radio" name="choicesS3" value="calcium" id="cal" class="choiceA">
+            <label for="cal" class="choiceA">calcium
+</label>
+            <br>
+            <br>
+            <li>Which of the following is used in pencils?</li>
+            <br>
+            <input type="radio" name="choicesS4" value="Graphite" id="graph" class="correctAnswerScience">
+            <label for="graph" class="choiceA">Graphite</label><br>
+            <input type="radio" name="choicesS4" value="Silicon" id="sil" class="choiceA">
+            <label for="sil" class="choiceA">Silicon</label><br>
+            <input type="radio" name="choicesS4" value="Charcoal" id="char" class="choiceA">
+            <label for="char" class="choiceA">Charcoal</label><br>
+            <input type="radio" name="choicesS4" value="Phosphorous" id="phosp" class="choiceA">
+            <label for="phosp" class="choiceA">Phosphorous</label><br>
+            <br>
+            <li>Which of the following metals forms an amalgam with other metals?</li><br>
+            <input type="radio" name="choicesS5" value="Tin" id="Tin" class="choiceA">
+            <label for="Tin" class="choiceA">Tin</label><br>
+            <input type="radio" name="choicesS5" value="Mercury" id="merc" class="correctAnswerScience">
+            <label for="merc" class="choiceA">Mercury</label><br>
+            <input type="radio" name="choicesS5" value="Lead" id="lea" class="choiceA">
+            <label for="lea" class="choiceA">Lead</label><br>
+            <input type="radio" name="choicesS5" value="Zinc" id="zin" class="choiceA">
+            <label for="zin" class="choiceA">Zinc</label><br>
+            <br>
+        </ol>
+    </div>
+    <br>
+    <div class="center  hidecategories">
+        <button type="button" id="nextbutton" value="Next!" onclick="techdiv()">Next!</button>
+    </div>
+    <br>
+    <div class="hidecategories">
+        <h3>TECHNOLOGY</h3>
+        <ol>
+            <!--question 1-->
+            <li>In which decade was the American Institute of Electrical Engineers (AIEE) founded?
+            </li><br><br>
+            <input type="radio" name="choicesT1" value="1850s" id="1850s" class="choiceA">
+            <label for="1850s" class="choiceA">1850s</label><br>
+            <input type="radio" name="choicesT1" value="1880s" id="1880s" class="correctAnswerTech">
+            <label for="1880s" class="choiceA">1880s</label><br>
+            <input type="radio" name="choicesT1" value="1930s" id="1930s" class="choiceA">
+            <label for="1930s" class="choiceA">1930s</label><br>
+            <input type="radio" name="choicesT1" value="1950s" id="1950s" class="choiceA">
+            <label for="1950s" class="choiceA">1950s</label><br>
+            <br>
+            <!--question 2-->
+            <li>What is part of a database that holds only one type of information?
+            </li><br><br>
+            <input type="radio" name="choicesT2" value="Report" id="Report" class="choiceA">
+            <label for="Report" class="choiceA">Report</label><br>
+            <input type="radio" name="choicesT2" value="Field" id="Field" class="correctAnswerTech">
+            <label for="Field" class="choiceA">Field</label><br>
+            <input type="radio" name="choicesT2" value="Record" id="Record" class="choiceA">
+            <label for="Record" class="choiceA">Record</label><br>
+            <input type="radio" name="choicesT2" value="File" id="File" class="choiceA">
+            <label for="File" class="choiceA">File</label><br><br>
+            <!--question 3-->
+            <li>'OS' computer abbreviation usually means ?</li><br><br>
+            <input type="radio" name="choicesT3" value="order" id="order">
+            <label for="order" class="choiceA">Order of Significance
+            </label><br>
+            <input type="radio" name="choicesT3" value="Open Software" id="open">
+            <label for="open" class="choiceA">Open Software</label><br>
+            <input type="radio" name="choicesT3" value="Operating System
+            " id="os" class="correctAnswerTech">
+            <label for="os" class="choiceA">Operating System</label><br>
+            <input type="radio" name="choicesT3" value="Optical Sensor
+            " id="opt">
+            <label for="opt" class="choiceA">Optical Sensor</label><br>
+            <br>
+            <!--question 4-->
+            <li>In which decade with the first transatlantic radio broadcast occur?</li>
+            <input type="radio" name="choicesT4" value="1850s" id="1850ss">
+            <label for="1850ss" class="choiceA">1850s</label><br>
+            <input type="radio" name="choicesT4" value="1860s" id="1860ss">
+            <label for="1860ss" class="choiceA">1860s</label><br>
+            <input type="radio" name="choicesT4" value="1870s" id="1870ss">
+            <label for="1870ss" class="choiceA">1870s</label><br>
+            <input type="radio" name="choicesT4" value="1900s" id="1900ss" class="correctAnswerTech">
+            <label for="1900ss" class="choiceA">1900s</label><br>
+            <br>
+            <!--question 5-->
+            <li>'.MOV' extension refers usually to what kind of file? </li>
+            <input type="radio" name="choicesT5" value="Image file" id="Image file">
+            <label for="Image file" class="choiceA">Image file
+            </label><br>
+            <input type="radio" name="choicesT5" value="Animation/movie file" id="Animation/movie file" class="correctAnswerTech">
+            <label for="Animation/movie file" class="choiceA">Animation/movie file
+            </label><br>
+            <input type="radio" name="choicesT5" value="Audio file" id="Audio file">
+            <label for="Audio file" class="choiceA">Audio file
+            </label><br>
+            <input type="radio" name="choicesT5" value="MS Office document" id="MS Office document">
+            <label for="MS Office document" class="choiceA">MS Office document
+            </label>
+        </ol>
+    </div>
+    <div class="hidecategories">
+        <h3>GEOGRAPHY</h3>
+        <ol>
+            <li>The Homolographic projection has the correct representation of</li><br>
+            <input type="radio" name="choicesG1" value="shape" id="shape">
+            <label for="shape" class="choiceA">shape
+            </label><br>
+            <input type="radio" name="choicesG1" value="area" id="area" class="correctAnswerGeo">
+            <label for="area" class="choiceA">area
+            </label><br>
+            <input type="radio" name="choicesG1" value="baring" id="baring">
+            <label for="baring" class="choiceA">baring
+            </label><br>
+            <input type="radio" name="choicesG1" value="distance" id="distance">
+            <label for="distance" class="choiceA">distance
+            </label><br><br>
+            <li>The latitudinal differences in pressure delineate a number of major pressure zones, which correspond with</li>
+            <br>
+            <input type="radio" name="choicesG2" value="zones of climate" id="climate" class="correctAnswerGeo">
+            <label for="climate" class="choiceA">zones of climate
+            </label><br>
+            <input type="radio" name="choicesG2" value="zones of oceans
+            " id="oceans">
+            <label for="oceans" class="choiceA">zones of oceans
+            </label><br>
+            <input type="radio" name="choicesG2" value="zones of land
+            " id="land">
+            <label for="land" class="choiceA">zones of land
+            </label><br>
+            <input type="radio" name="choicesG2" value="zones of cyclonic depressions" id="cyclonic">
+            <label for="cyclonic" class="choiceA">zones of cyclonic depressions
+            </label><br><br>
+            <li>The higher the wind speed and the longer the fetch or distance of open water across which the wind blows and waves travel, the ____ waves and the ____ energy they process.</li>
+            <br>
+            <input type="radio" name="choicesG3" value="larger, more" id="largermore" class="correctAnswerGeo">
+            <label for="largermore" class="choiceA">larger, more
+            </label><br>
+            <input type="radio" name="choicesG3" value="larger, less" id="largerless">
+            <label for="largerless" class="choiceA">larger, less
+            </label><br>
+            <input type="radio" name="choicesG3" value="smaller, more" id="smallermore">
+            <label for="smallermore" class="choiceA">smaller, more
+            </label><br>
+            <input type="radio" name="choicesG3" value="smaller, less" id="smallerless">
+            <label for="smallerless" class="choiceA">smaller, less
+            </label><br><br>
+            <li>The hazards of radiation belts include</li>
+            <br>
+            <input type="radio" name="choicesG4" value="deterioration of electronic circuits" id="deterioration">
+            <label for="deterioration" class="choiceA">deterioration of electronic circuits</label><br>
+            <input type="radio" name="choicesG4" value="damage of solar cells of spacecraft" id="damage">
+            <label for="damage" class="choiceA">damage of solar cells of spacecraft</label><br>
+            <input type="radio" name="choicesG4" value="adverse effect on living organisms" id="adverse">
+            <label for="adverse" class="choiceA">adverse effect on living organisms</label><br>
+            <input type="radio" name="choicesG4" value="All of the above" id="above" class="correctAnswerGeo">
+            <label for="above" class="choiceA">All of the above
+            </label><br><br>
+            <li>The great Victoria Desert is located in</li>
+            <br>
+            <input type="radio" name="choicesG5" value="Canada" id="Canada">
+            <label for="Canada" class="choiceA">Canada</label><br>
+            <input type="radio" name="choicesG5" value="West Africa" id="West Africa">
+            <label for="West Africa" class="choiceA">West Africa
+            </label><br>
+            <input type="radio" name="choicesG5" value="Australia" id="Australia" class="correctAnswerGeo">
+            <label for="Australia" class="choiceA">Australia</label><br>
+            <input type="radio" name="choicesG5" value="North America" id="North America">
+            <label for="North America" class="choiceA">North America</label><br>
+        </ol>
+    </div>
+    <br>
+    <div class="hidecategories">
+        <p id="finalScore"></p>
+        <p id="mathScore"></p>
+        <p id="scienceScore"></p>
+        <p id="techScore"></p>
+        <p id="geoScore"></p>
+    </div>
+    <div class="center hidecategories">
+        <button type=" button " id="nextbutton " value="Next! " onclick="geodiv() ">Next!</button>
+    </div>
+    <div class="center hidecategories">
+        <button type="button" id="" onclick="finish()" value="Finish!">Finish!</button>
+    </div>
+
+    <script src="javascript1.js " type="text/javascript "></script>
+</body>
+
+
+</html>
